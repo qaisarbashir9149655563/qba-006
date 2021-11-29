@@ -1,0 +1,66 @@
+*{
+    background-color:#0c5050;
+}
+strong{
+    display: inline-block;
+    text-align: center;
+    margin-left: 40%;
+    color: tomato;
+    letter-spacing: 1px;
+}
+main{
+    box-sizing: border-box;
+    /* border: solid 4px red; */
+    text-align: center;
+    margin-top: 7%;
+    padding-top: 10px;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+label{
+    color: white;
+    font-size: 20px;
+    letter-spacing:1px ;
+    margin-right: 10px;
+    font-weight: bold;
+}
+input{
+    color: green;
+    padding-left:140px ;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:white;
+}
+input:hover{
+    background-color: aqua;
+}
+.submitGuess{
+    border-radius: 30px;
+    color: black;
+    cursor: pointer;
+    background-color: chartreuse;
+    padding: 10px;
+    margin-left: 20px;
+}
+.submitGuess:hover{
+    background-color:yellow;
+    
+}
+.result{
+    color:white;
+    font-weight: bolder;
+    /* border: solid 2px rgb(0,0,0); */
+    margin-block-end: 5em;
+    margin-left: 30em;
+    margin-right: 30em;
+}
+.result:nth-child(2){
+    font-size: 10px;
+    color: white;
+}
+em{
+    color: white;
+    display: inline-block;
+    margin-left: 27rem;
+}
